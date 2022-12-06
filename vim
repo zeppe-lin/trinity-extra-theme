@@ -1,6 +1,13 @@
-" Vim color file:
-" Name:         Trinity Theme (based on calmar256color)
-" Maintainer:   chinarulezzz <alexandr.savca89@gmail.com>
+" Name:        trinity
+" Description: Trinity color theme.
+" Author:      Alexandr Savca <alexandr.savca89@gmail.com>
+" Maintainer:  Alexandr Savca <alexandr.savca89@gmail.com>
+" Website:     https://github.com/zeppe-lin
+" License:     Public Domain
+" Last Change: 04 Dec 2022
+"
+" Based on calmar256-dark:
+" http://www.calmar.ws/dotfiles/dotfiledir/calmar256-dark.vim
 "
 " for a 256 color capable terminal like xterm-256color,
 " ... or gvim as well
@@ -205,4 +212,4 @@ endif
 " }}}
 let &cpo = s:save_cpo   " restoring &cpo value
 " vim: fdm=marker:fileformat=unix:sw=2:ts=2:sts=2:et:cc=72
-" End of file
+" End of file.
