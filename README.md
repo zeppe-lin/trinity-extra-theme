@@ -9,7 +9,10 @@ Install
 -------
 The various software have their own configuration files location.  See
 the corresponding paths of your favorite program and check if it has
-trinitized.  Then replace it or adjust conform your needs.
+trinitized version, then replace it or adjust conform your needs.
+
+Also, see `Makefile`.  I've added `import-local` target to sync local
+and git configuration files.
 
 
 License and Copyright
