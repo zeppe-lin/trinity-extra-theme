@@ -1,18 +1,21 @@
 #
-# ~/.dircolors: Trinity theme configuration file for dircolors(1)
+# ~/.dircolors: dircolors(1) configuration
 #
 
-# Trinity configuration file for dircolors, a utility to help you set the
-# LS_COLORS environment variable used by GNU ls with the --color option.
+# This is a .dircolors file, configuration file for dircolors(1), a
+# utility to help you set the LS_COLORS environment variable used by
+# GNU ls(1) with the --color option.  The color palette is adjusted to
+# Trinity theme.
 
 # Copyright (C) 1996-2020 Free Software Foundation, Inc.
 # Copying and distribution of this file, with or without modification,
-# are permitted provided the copyright notice and this notice are preserved.
+# are permitted provided the copyright notice and this notice are
+# preserved.
 
-# The keywords COLOR, OPTIONS, and EIGHTBIT (honored by the
-# slackware version of dircolors) are recognized but ignored.
-# Below are TERM entries, which can be a glob patterns, to match
-# against the TERM environment variable to determine if it is colorizable.
+# The keywords COLOR, OPTIONS, and EIGHTBIT (honored by the Slackware
+# version of dircolors) are recognized but ignored.  Below are TERM
+# entries, which can be a glob patterns, to match against the TERM
+# environment variable to determine if it is colorizable.
 
 TERM Eterm
 TERM ansi
@@ -38,10 +41,11 @@ TERM terminator
 TERM tmux*
 TERM vt100
 TERM xterm*
-# Below are the color init strings for the basic file types.
-# One can use codes for 256 or more colors supported by modern terminals.
-# The default color codes use the capabilities of an 8 color terminal
-# with some additional attributes as per the following codes:
+
+# Below are the color init strings for the basic file types.  One can
+# use codes for 256 or more colors supported by modern terminals.  The
+# default color codes use the capabilities of an 8 color terminal with
+# some additional attributes as per the following codes:
 # Attribute codes:
 # 00=none 01=bold 04=underscore 05=blink 07=reverse 08=concealed
 # Text color codes:
@@ -203,5 +207,5 @@ EXEC 38;5;48
 .spx 00;36
 .xspf 00;36
 
-# vim:ft=dircolors
+# vim:ft=dircolors:sw=2:ts=2:sts=2:et:cc=72:tw=70
 # End of file.
