@@ -1,13 +1,17 @@
 #
-# ~/.config/dunst/dunstrc: Trinity theme configuration file for dunst(1)
+# ~/.config/dunst/dunstrc: dunst(1) configuration
+#
+# See /etc/dunst/dunstrc for config template and dunst(5) for all
+# configuration options.
 #
 
 [global]
-font = Iosevka Term 10
+#font = Iosevka Term 10
+font = xos4 Terminus 9
 #font = Terminus (TTF) 9
 
-# Don't remove messages, if the user is idle (no mouse or keyboard input)
-# for longer than idle_threshold seconds.
+# Don't remove messages, if the user is idle (no mouse or keyboard
+# input) for longer than idle_threshold seconds.
 # Set to 0 to disable.
 # Transient notifications ignore this setting.
 idle_threshold = 120
@@ -93,8 +97,8 @@ shrink = no
 # present (e.g. xcompmgr, compiz, etc.).
 transparency = 5
 
-# Don't remove messages, if the user is idle (no mouse or keyboard input)
-# for longer than idle_threshold seconds.
+# Don't remove messages, if the user is idle (no mouse or keyboard
+# input) for longer than idle_threshold seconds.
 # Set to 0 to disable.
 idle_threshold = 0
 
@@ -160,11 +164,11 @@ dmenu = /usr/bin/dmenu -p dunst:
 browser = /usr/bin/firefox -new-tab
 
 # Align icons left/right/off
-icon_position = off
-max_icon_size = 24
+icon_position = left
+max_icon_size = 48
 
-# Paths to default icons.
-icon_path = /usr/share/icons/Trinity/actions/scalable:/usr/share/icons/Trinity/animations/scalable:/usr/share/icons/Trinity/apps/scalable:/usr/share/icons/Trinity/categories/scalable:/usr/share/icons/Trinity/devices/scalable:/usr/share/icons/Trinity/emblems/scalable:/usr/share/icons/Trinity/mimetypes/scalable:/usr/share/icons/Trinity/places/scalable:/usr/share/icons/Trinity/status/scalable:/usr/share/icons/Trinity/stock/scalable
+# Paths to default icons (trinity).
+icon_path = /usr/share/icons/trinity/actions/scalable:/usr/share/icons/trinity/animations/scalable:/usr/share/icons/trinity/apps/scalable:/usr/share/icons/trinity/categories/scalable:/usr/share/icons/trinity/devices/scalable:/usr/share/icons/trinity/emblems/scalable:/usr/share/icons/trinity/mimetypes/scalable:/usr/share/icons/trinity/places/scalable:/usr/share/icons/trinity/status/scalable:/usr/share/icons/trinity/stock/scalable
 
 frame_width = 1
 frame_color = "#D64937"
@@ -213,12 +217,11 @@ foreground = "#ff0000"
 background = "#080808"
 timeout = 8
 
-
-# Every section that isn't one of the above is interpreted as a rules to
-# override settings for certain messages.
-# Messages can be matched by "appname", "summary", "body", "icon", "category",
-# "msg_urgency" and you can override the "timeout", "urgency", "foreground",
-# "background", "new_icon" and "format".
+# Every section that isn't one of the above is interpreted as a rules
+# to override settings for certain messages.
+# Messages can be matched by "appname", "summary", "body", "icon",
+# "category", "msg_urgency" and you can override the "timeout",
+# "urgency", "foreground", "background", "new_icon" and "format".
 # Shell-like globbing will get expanded.
 #
 # SCRIPTING
@@ -228,8 +231,8 @@ timeout = 8
 #   script appname summary body icon urgency
 # where urgency can be "LOW", "NORMAL" or "CRITICAL".
 #
-# NOTE: if you don't want a notification to be displayed, set the format
-# to "".
+# NOTE: if you don't want a notification to be displayed, set the
+# format to "".
 # NOTE: It might be helpful to run dunst -print in a terminal in order
 # to find fitting options for rules.
 
@@ -267,5 +270,5 @@ timeout = 8
 #    urgency = normal
 #
 
-# vim: ft=cfg
+# vim: ft=cfg:sw=2:ts=2:sts=2:et:cc=72:tw=70
 # End of file.
