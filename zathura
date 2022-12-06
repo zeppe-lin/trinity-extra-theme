@@ -1,20 +1,21 @@
 #
-# ~/.config/zathura/zathurarc: Trinity theme configuration file for zathura(1)
+# ~/.config/zathura/zathurarc: zathura(1) configuration
 #
 
-# Open document in fit-width mode by default
+# Open document in fit-width mode by default.
 #set adjust-open "best-fit"
 set adjust-open width
 
-# zoom
+# Zoom.
 map <C-i> zoom in
 map <C-o> zoom out
 
-# font
+# Font.
+set font xos4\ Terminus\ 9
 #set font Iosevka\ 10
 #set font Terminus\ \(TTF\)\ 9
 
-# dark-mode recoloring
+# Dark-mode recoloring.
 set recolor true
 #set recolor-lightcolor "#000000" #00
 #set recolor-darkcolor "#E0E0E0" #06
@@ -23,11 +24,15 @@ set recolor-keephue true
 
 set render-loading true
 
-# Use a strict seccomp filter
+# Use a strict seccomp filter.
 #set sandbox strict
 
-# Enable copy to clipboard
+# Enable copy to clipboard.
 set selection-clipboard clipboard
+
+######################################################################
+# trinity colorscheme
+######################################################################
 
 set default-bg                  "#000000"
 set default-fg                  "#55ff66"
@@ -63,4 +68,7 @@ set recolor-darkcolor           "#00d75f"
 set recolor                     "true"
 set recolor-keephue             "false"
 
+######################################################################
+
+# vim:sw=2:ts=2:sts=2:et:cc=72:tw=70
 # End of file.
