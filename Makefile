@@ -9,7 +9,7 @@ WIRESHARK  = ~/.config/wireshark/preferences
 XRESOURCES = ~/.Xresources
 ZATHURA    = ~/.config/zathura/zathurarc
 
-update:
+import-local:
 	[ -f ${DIRCOLORS}  ] && cp ${DIRCOLORS}  dircolors
 	[ -f ${DUNSTRC}    ] && cp ${DUNSTRC}    dunst
 	[ -f ${NEWSBOAT}   ] && cp ${NEWSBOAT}   newsboat
@@ -20,4 +20,4 @@ update:
 	[ -f ${ZATHURA}    ] && cp ${ZATHURA}    zathura
 
 
-.PHONY: update
+.PHONY: import-local
