@@ -1,5 +1,5 @@
-trinity-extra-theme - trinitize look'n'feel of various applications
-===================================================================
+trinity-extra-theme - trinitize look and feel of various apps
+=============================================================
 trinity-extra-theme contains configuration files for various software.
 The purpose of these files is to approximate the look and feel of the
 [trinity-gtk-theme](https://github.com/zeppe-lin/trinity-gtk-theme).
