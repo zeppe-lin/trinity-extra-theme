@@ -9,6 +9,8 @@ WIRESHARK  = ~/.config/wireshark/preferences
 XRESOURCES = ~/.Xresources
 ZATHURA    = ~/.config/zathura/zathurarc
 
+all:
+
 import-local:
 	[ -f ${DIRCOLORS}  ] && cp ${DIRCOLORS}  dircolors
 	[ -f ${DUNSTRC}    ] && cp ${DUNSTRC}    dunst
