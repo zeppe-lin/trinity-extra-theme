@@ -13,8 +13,9 @@ Xft.rgba: none
   Meta <KeyPress> /:dabbrev-expand()
   Ctrl ~Meta <Key>slash: print-everything()
 
-!st.font: Iosevka Term:style=Regular:size=10
-st.font: xos4 Terminus:style=Regular:size=9
+st.font: Iosevka Term:style=Regular:size=10
+!st.font: xos4 Terminus:style=Regular:size=9
+!st.font: Terminus (TTF):style=Medium:size=9
 
 xterm*faceName: xos4 Terminus:style=Regular:size=9
 xterm*faceSize: 9
