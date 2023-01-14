@@ -20,6 +20,5 @@ See *LICENSE* file for copyrights and license details.
 
 [1]: https://github.com/zeppe-lin/trinity-gtk-theme
 
-
 <!-- vim:sw=2:ts=2:sts=2:et:cc=72:tw=70
 End of file. -->
