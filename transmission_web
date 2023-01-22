@@ -5,6 +5,10 @@
     border-color: var(--border-color) !important;
 }
 
+div.ui-dialog {
+    font-size: 1.2em !important;
+}
+
 body,
 div.dialog_container div.dialog_window,
 .inspector-tab,
