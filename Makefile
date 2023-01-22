@@ -13,15 +13,15 @@ ZATHURA    = ~/.config/zathura/zathurarc
 all:
 
 import-local:
-	[ -f ${DIRCOLORS}  ] && cp ${DIRCOLORS}  dircolors
-	[ -f ${DUNSTRC}    ] && cp ${DUNSTRC}    dunst
-	[ -f ${GITK}       ] && cp ${GITK}       gitk
-	[ -f ${HEXCHAT}    ] && cp ${HEXCHAT}    hexchat
-	[ -f ${NEWSBOAT}   ] && cp ${NEWSBOAT}   newsboat
-	[ -f ${VIFM}       ] && cp ${VIFM}       vifm
-	[ -f ${VIM}        ] && cp ${VIM}        vim
-	[ -f ${WIRESHARK}  ] && cp ${WIRESHARK}  wireshark
-	[ -f ${XRESOURCES} ] && cp ${XRESOURCES} xresources
-	[ -f ${ZATHURA}    ] && cp ${ZATHURA}    zathura
+	@if [ -f ${DIRCOLORS}  ]; then cp ${DIRCOLORS}  dircolors;  fi
+	@if [ -f ${DUNSTRC}    ]; then cp ${DUNSTRC}    dunst;      fi
+	@if [ -f ${GITK}       ]; then cp ${GITK}       gitk;       fi
+	@if [ -f ${HEXCHAT}    ]; then cp ${HEXCHAT}    hexchat;    fi
+	@if [ -f ${NEWSBOAT}   ]; then cp ${NEWSBOAT}   newsboat;   fi
+	@if [ -f ${VIFM}       ]; then cp ${VIFM}       vifm;       fi
+	@if [ -f ${VIM}        ]; then cp ${VIM}        vim;        fi
+	@if [ -f ${WIRESHARK}  ]; then cp ${WIRESHARK}  wireshark;  fi
+	@if [ -f ${XRESOURCES} ]; then cp ${XRESOURCES} xresources; fi
+	@if [ -f ${ZATHURA}    ]; then cp ${ZATHURA}    zathura;    fi
 
 .PHONY: import-local
