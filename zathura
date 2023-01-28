@@ -11,8 +11,8 @@ map <C-i> zoom in
 map <C-o> zoom out
 
 # Font.
-set font xos4\ Terminus\ 9
-#set font Iosevka\ 10
+#set font xos4\ Terminus\ 9
+set font Iosevka\ 10
 #set font Terminus\ \(TTF\)\ 9
 
 # Dark-mode recoloring.
