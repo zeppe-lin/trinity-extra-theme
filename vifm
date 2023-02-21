@@ -45,5 +45,5 @@ highlight Device          cterm=none ctermfg=red ctermbg=default
 highlight Fifo            cterm=none ctermfg=cyan ctermbg=default
 highlight Executable      cterm=bold ctermfg=green ctermbg=default
 
-" vim:sw=2:ts=2:sts=2:et:cc=72:tw=70
+" vim:ft=vifm:sw=2:ts=2:sts=2:et:cc=72:tw=70
 " End of file.
