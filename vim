@@ -2,7 +2,7 @@
 " Description: Trinity color theme.
 " Author:      Alexandr Savca <alexandr.savca89@gmail.com>
 " Maintainer:  Alexandr Savca <alexandr.savca89@gmail.com>
-" Website:     https://github.com/zeppe-lin
+" Website:     https://github.com/zeppe-lin/trinity-extra-theme
 " License:     Public Domain
 " Last Change: 04 Dec 2022
 "
