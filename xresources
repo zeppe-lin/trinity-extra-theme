@@ -31,7 +31,7 @@ xterm.vt100.printerCommand: xterm -e sh -c 'less -RX - <&3' 3<&0
 xterm.vt100.translations: #override Ctrl ~Meta ~Shift <Key>slash: print-everything()
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! Trinity colorscheme.
+!!           Trinity colorscheme for ~/.Xresources file.            !!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 *color0:       #000000
