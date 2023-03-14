@@ -94,7 +94,7 @@ shrink = no
 
 # The transparency of the window.  Range: [0; 100].
 # This option will only work if a compositing windowmanager is
-# present (e.g. xcompmgr, compiz, etc.).
+# present (e.g. xcompmgr, compiz, picom, etc.).
 transparency = 5
 
 # Don't remove messages, if the user is idle (no mouse or keyboard
