@@ -11,7 +11,7 @@ INSTALL
 	the trinitized version.  If so, replace it or adjust conform your
 	needs.
 
-	Also, see Makefile.  There was added 'import-local' target to sync
+	Also, see Makefile.  There was added ``import-local'' target to sync
 	local and git configuration files.
 
 LICENSE
