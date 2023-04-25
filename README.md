@@ -1,18 +1,19 @@
 OVERVIEW
 --------
-This directory contains trinity-extra-theme, configuration files for various
-software.  The purpose of these files is to approximate the look and feel of
-the trinity-gtk-theme.
+This directory contains trinity-extra-theme, configuration files for
+various software.  The purpose of these files is to approximate the
+look and feel of the trinity-gtk-theme.
 
 
 INSTALL
 -------
-The various software have their own configuration files location.  See the
-corresponding path of your favorite program and check if it has the trinitized
-version.  If so, replace it or adjust conform your needs.
+The various software have their own configuration files location.  See
+the corresponding path of your favorite program and check if it has
+the trinitized version.  If so, replace it or adjust conform your
+needs.
 
-Also, see Makefile.  There was added `import-local` target to sync local and
-git configuration files.
+Also, see Makefile.  There was added `import-local` target to sync
+local and git configuration files.
 
 
 LICENSE
