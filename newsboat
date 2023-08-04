@@ -20,7 +20,7 @@ use-proxy yes
 #highlight article "^(Title):.*$"                color117 default
 #highlight article "\\[image\\ [0-9]+\\]"        color117 default
 
-color listnormal        green default
+color listnormal        green   default
 color listnormal_unread default default
 color listfocus         default default reverse bold
 color listfocus_unread  default default reverse bold
