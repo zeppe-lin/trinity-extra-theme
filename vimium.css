@@ -1,0 +1,27 @@
+/*
+ * Trinity-like CSS theme for Vimium UI.
+ *
+ * Open «Vimium Options» in browser, check «Show Advanced Options»,
+ * and place the content of this file into «CSS for Vimium UI».
+ */
+
+div > .vimiumHintMarker {
+	/* linkhint boxes */
+	background: #000000;
+	border: 1px solid #55af66;
+	border-radius: 0px;
+}
+
+div > .vimiumHintMarker span {
+	/* linkhint text */
+	color: #55af66;
+	font-weight: normal; /*bold;*/
+	font-size: 12px;
+}
+
+div > .vimiumHintMarker > .matchingCharacter {
+	/* do nothing */
+}
+
+/* vim: cc=72 tw=70
+ * End of file. */
