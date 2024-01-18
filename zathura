@@ -11,9 +11,10 @@ map <C-i> zoom in
 map <C-o> zoom out
 
 # Font.
-set font Iosevka\ 10
 #set font xos4\ Terminus\ 9
+#set font Iosevka\ 10
 #set font Terminus\ \(TTF\)\ 9
+set font JetBrains\ Mono\ 9
 
 # Dark-mode recoloring.
 set recolor true
@@ -35,9 +36,10 @@ set selection-clipboard clipboard
 ######################################################################
 
 set default-bg                  "#000000"
-set default-fg                  "#55ff66"
+set default-fg                  "#55af66"
 
-set statusbar-fg                "darkgrey"
+#set statusbar-fg                "darkgrey"
+set statusbar-fg                "#af6655"
 set statusbar-bg                "#000000"
 set statusbar-basename          "true"
 
@@ -53,8 +55,10 @@ set notification-error-fg       "#fb4934"
 set notification-warning-bg     "#000000"
 set notification-warning-fg     "#fb4934"
 
-set highlight-color             "#fabd2f"
-set highlight-active-color      "#83a598"
+#set highlight-color             "#fabd2f"
+set highlight-color             "#444444"
+#set highlight-active-color      "#83a598"
+set highlight-fg                "yellow"
 
 set completion-bg               "#000000"
 set completion-fg               "darkgreen"
@@ -63,12 +67,12 @@ set completion-highlight-bg     "#000000"
 set completion-highlight-fg     "yellow"
 
 set recolor-lightcolor          "#000000"
-set recolor-darkcolor           "#00d75f"
+set recolor-darkcolor           "#55af66"
 
 set recolor                     "true"
 set recolor-keephue             "false"
 
 ######################################################################
 
-# vim:sw=2:ts=2:sts=2:et:cc=72:tw=70
+# vim: sw=2 ts=2 sts=2 et cc=72 tw=70
 # End of file.
