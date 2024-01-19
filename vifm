@@ -1,7 +1,7 @@
 "
 " ~/.vifm/colors/trinity.vifm: Trinity vifm colorscheme
 "
-" based on: solarized dark
+" Based on "solarized dark" from https://github.com/vifm/vifm-colors.
 "
 " COLORS:
 "   Default = -1 = None, can be used for transparency or default color
