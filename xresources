@@ -2,42 +2,42 @@
 !!           Trinity colorscheme for ~/.Xresources file.            !!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-! Black, Grey
+! Black, Grey.
 *color0:       #000000
 *color8:       #808080
 
-! Red, Bright Red
+! Red, Bright Red.
 *color1:       #800000
 *color9:       #ff0000
 
-! Green, Bright Green
+! Green, Bright Green.
 *color2:       #008000
 *color10:      #00b300
 
-! Yellow, Bright Yellow
+! Yellow, Bright Yellow.
 *color3:       #808000
 *color11:      #ffff00
 
-! Blue, Bright Blue
+! Blue, Bright Blue.
 *color4:       #005888
 *color12:      #0000ff
 
-! Magenta, Bright Magenta
+! Magenta, Bright Magenta.
 *color5:       #800080
 *color13:      #ff00ff
 
-! Cyan, Bright Cyan
+! Cyan, Bright Cyan.
 *color6:       #008080
 *color14:      #00ffff
 
-! White, Bright White
+! White, Bright White.
 *color7:       #c0c0c0
 *color15:      #ffffff
 
-! Background, Foreground, Cursor
+! Background, Foreground, Cursor.
 *foreground:   #55af66
 *background:   #000000
 *cursorColor:  #55af66
 
-! vim: ft=xdefaults cc=72 tw=70
+! vim: ft=xdefaults nospell cc=72 tw=70
 ! End of file.
