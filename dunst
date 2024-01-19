@@ -6,7 +6,8 @@
 #
 
 [global]
-font = Iosevka Term 10
+font = JetBrains Mono NL 9
+#font = Iosevka Term 10
 #font = xos4 Terminus 9
 #font = Terminus (TTF) 9
 
@@ -94,7 +95,7 @@ shrink = no
 
 # The transparency of the window.  Range: [0; 100].
 # This option will only work if a compositing windowmanager is
-# present (e.g. xcompmgr, compiz, picom, etc.).
+# present (e.g. xcompmgr, picom, compiz, etc.).
 transparency = 5
 
 # Don't remove messages, if the user is idle (no mouse or keyboard
@@ -270,5 +271,5 @@ timeout = 8
 #    urgency = normal
 #
 
-# vim: ft=cfg:sw=2:ts=2:sts=2:et:cc=72:tw=70
+# vim: nospell ft=cfg sw=2 ts=2 sts=2 et cc=72 tw=70
 # End of file.
