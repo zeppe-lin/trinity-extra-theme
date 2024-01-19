@@ -1,12 +1,13 @@
-" Name:        trinity
-" Description: Trinity color theme.
-" Author:      Alexandr Savca <alexandr.savca89@gmail.com>
-" Maintainer:  Alexandr Savca <alexandr.savca89@gmail.com>
-" Website:     https://github.com/zeppe-lin/trinity-extra-theme
-" License:     Public Domain
-" Last Change: 04 Dec 2022
+" Name:             trinity
+" Description:      Trinity color theme.
+" Original Author:  Marco Candrian <mac@calmar.ws>
+" Author:           Alexandr Savca <alexandr.savca89@gmail.com>
+" Maintainer:       Alexandr Savca <alexandr.savca89@gmail.com>
+" Website:          https://github.com/zeppe-lin/trinity-extra-theme
+" License:          Public Domain
+" Last Change:      January 19, 2024
 "
-" Based on calmar256-dark:
+" Based on calmar256-dark by Marco Candrian <mac@calmar.ws>:
 " http://www.calmar.ws/dotfiles/dotfiledir/calmar256-dark.vim
 "
 " for a 256 color capable terminal like xterm-256color,
@@ -211,5 +212,6 @@ else
 endif
 " }}}
 let &cpo = s:save_cpo   " restoring &cpo value
-" vim: fdm=marker:fileformat=unix:sw=2:ts=2:sts=2:et:cc=72
+
+" vim: fdm=marker ft=vim ff=unix sw=2 ts=2 sts=2 et cc=72 tw=70
 " End of file.
