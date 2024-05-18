@@ -214,5 +214,5 @@ EXEC 38;5;48
 .spx 38;5;68
 .xspf 38;5;68
 
-# vim:ft=dircolors:sw=2:ts=2:sts=2:et:cc=72:tw=70
+# vim: ft=dircolors cc=72 tw=70
 # End of file.
